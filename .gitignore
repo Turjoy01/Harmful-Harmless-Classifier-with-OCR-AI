@@ -1,0 +1,125 @@
+# =========================================
+# PYTHON / FASTAPI PROJECT
+# =========================================
+
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# =========================================
+# ENVIRONMENT / CONFIG
+# =========================================
+.env
+.env.*
+!.env.example
+*.ini
+*.toml
+*.cfg
+
+# =========================================
+# LOGGING / MONITORING
+# =========================================
+logs/
+*.log
+*.out
+*.err
+
+# =========================================
+# DEPENDENCY / BUILD FILES
+# =========================================
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+pip-wheel-metadata/
+pip-log.txt
+*.egg-info/
+*.egg
+build/
+dist/
+
+# =========================================
+# CACHE / TEST ARTIFACTS
+# =========================================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+mypy_cache/
+.dmypy.json
+.pyre/
+
+# =========================================
+# DATABASE / DATA FILES
+# =========================================
+*.db
+*.sqlite3
+*.sqlite
+*.jsonl
+*.parquet
+
+# =========================================
+# EDITOR / OS FILES
+# =========================================
+# VSCode / JetBrains
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================================
+# DOCKER / CONTAINERS
+# =========================================
+# Docker build artifacts
+Dockerfile.*
+docker-compose*.yml
+*.pid
+*.sock
+
+# =========================================
+# TEST / EXPERIMENT FILES
+# =========================================
+notebooks/
+*.ipynb_checkpoints
+tmp/
+temp/
+scratch/
+_old_/
+_backup_/
+
+# =========================================
+# APP-SPECIFIC
+# =========================================
+# Ignore compiled frontend if any (React)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Ignore audio/video assets (if used in podcast app)
+media/
+uploads/
+*.mp3
+*.wav
+*.webm
+*.mp4
+
+# =========================================
+# SYSTEM FILES
+# =========================================
+# VSCode workspace backups, OS-specific
+*.swp
+*.swo
+*.bak
+*.tmp
